@@ -1,0 +1,17 @@
+{
+    "id": "some id",
+    "name": "project name",
+    "techTags": ["JavaScript", "Html", "CSS"],
+    "projectLink": "The link to the project if published or linked in account if the project was for Valeo",
+    "desc": "some descripton goes here.",
+    "mainThumb": "the path of the thumb in the images folder.",
+    "screenShors": ["paths of images in the image folder"]
+}
+
+
+AllowedTags
+HTML
+CSS
+JS
+.NET
+WPF
