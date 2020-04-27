@@ -1,0 +1,70 @@
+/******************************************** Intro */
+.intro-container {
+  background-color: var(--main-box-background);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+
+  min-height: 90vh;
+  position: relative;
+  box-shadow: var(--main-box-shadow);
+}
+
+.intro-container .header {
+  flex: 2;
+  font-size: 4rem;
+  padding: 100px 0 100px 50px;
+  position: relative;
+  z-index: 2;
+}
+.intro-container .header small {
+  font-size: 1.2rem;
+  font-family: 'Jura', sans-serif;
+  color: var(--main-yellow);
+}
+
+.intro-container .text {
+  font-size: 1.5rem;
+  flex: 1;
+  margin: 50px 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  z-index: 2;
+  font-family: 'Jura', sans-serif;
+}
+.intro-container .text a {
+  text-decoration: none;
+  color: var(--main-blue);
+  font-size: 1rem;
+  text-align: center;
+
+  border: 1px solid var(--main-blue);
+  padding: 10px 15px;
+  width: 50%;
+
+  transition: transform 0.3s ease-in-out;
+}
+.intro-container .text a:hover {
+  transform: scale(1.05);
+}
+
+.intro-container .ghost-text {
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  bottom: 0;
+  z-index: 1;
+
+  line-height: 200px;
+  letter-spacing: 5px;
+
+  text-align: Left;
+  font-size: 5rem;
+  color: rgba(5, 5, 5, 1);
+}

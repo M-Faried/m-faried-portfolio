@@ -1,51 +1,98 @@
+/* ******************* The Field Card Container */
+.field-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px 0;
+
+  position: relative;
+}
+
 /********************************************* field cards  */
 .field-card {
   box-shadow: var(--main-box-shadow);
   background-color: var(--main-box-background);
-  width: 30%;
-  min-height: 400px;
-  margin: 20px 0;
   font-family: 'Jura', sans-serif;
 
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+
+  min-height: 250px;
   transform: translateY(100%);
-  transition: transform 0.4s ease-in-out;
+  transition: transform 1s ease-in;
 }
 .field-card.show {
   transform: translateY(0);
 }
-.field-card:hover {
-  transform: scale(1.05);
-}
 
 .field-card a {
   text-decoration: none;
-  color: white;
 }
 
 .field-card .card-body {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+/* ****************** single logo ****************** */
+.field-card .logo {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  min-width: 200px;
 }
-
-.field-card .logo {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 30px;
-}
-
-.field-card .description {
-  text-align: center;
-  font-size: 1.5rem;
-}
-
 .field-card .logo img {
   width: 150px;
   height: 150px;
+  padding: 10px;
+}
+
+.field-card .logo h1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+/* ****************** multi logo ****************** */
+.field-card .multi-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 120px;
+}
+.field-card .multi-logo img,
+.field-card .multi-logo h1 {
+  width: 90px;
+  height: 90px;
+  padding: 5px;
+}
+.field-card .multi-logo h1 {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+/* ****************** card description ****************** */
+.field-card .description {
+  text-align: left;
+  font-size: 1.2rem;
+  margin-left: 50px;
+}
+.field-card .description li {
+  padding: 5px 0;
 }
 .field-card .description h1 {
   margin: 0;
