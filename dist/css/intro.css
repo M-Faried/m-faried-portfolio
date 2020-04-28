@@ -1,4 +1,4 @@
-/******************************************** Intro */
+/* ******************************************* Intro ******************************************* */
 .intro-container {
   background-color: var(--main-box-background);
 
@@ -12,6 +12,7 @@
   box-shadow: var(--main-box-shadow);
 }
 
+/* ******************************************* Left Text ******************************************* */
 .intro-container .header {
   flex: 2;
   font-size: 4rem;
@@ -25,6 +26,7 @@
   color: var(--main-yellow);
 }
 
+/* ******************************************* Right Text ******************************************* */
 .intro-container .text {
   font-size: 1.5rem;
   flex: 1;
@@ -38,22 +40,20 @@
   z-index: 2;
   font-family: 'Jura', sans-serif;
 }
-.intro-container .text a {
-  text-decoration: none;
-  color: var(--main-blue);
-  font-size: 1rem;
-  text-align: center;
+/* .pitching-text {
+  display: none;
+} */
 
-  border: 1px solid var(--main-blue);
-  padding: 10px 15px;
-  width: 50%;
-
-  transition: transform 0.3s ease-in-out;
+/* ******************************************* Contacts Text *******************************************  */
+.contacts-text {
+  opacity: 1;
+  transition: opacity 2s ease-in;
 }
-.intro-container .text a:hover {
-  transform: scale(1.05);
+.contacts-text a {
+  color: white;
 }
 
+/* ******************************************* Ghost Text ******************************************* */
 .intro-container .ghost-text {
   position: absolute;
   top: 50px;
@@ -67,4 +67,43 @@
   text-align: Left;
   font-size: 5rem;
   color: rgba(5, 5, 5, 1);
+}
+
+/* ******************************************* Animation Classes ******************************************* */
+.popup-element {
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+
+.popup-element.pop {
+  opacity: 1;
+}
+
+.glowing-btn {
+  text-decoration: none;
+
+  color: var(--main-blue);
+  font-size: 1.2rem;
+  text-align: center;
+
+  border: 2px solid var(--main-blue);
+  padding: 10px 15px;
+  margin-top: 40px;
+  width: 50%;
+
+  animation: glowing 3s ease-in-out infinite;
+}
+.glowing-btn:active {
+  transform: scale(0.95);
+}
+@keyframes glowing {
+  0% {
+    box-shadow: 0;
+  }
+  50% {
+    box-shadow: 0 0 5px #2196f3, 0 0 20px #2196f3, 0 0 40px #2196f3;
+  }
+  100% {
+    box-shadow: 0;
+  }
 }
