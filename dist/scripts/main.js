@@ -1,4 +1,5 @@
 const allFieldCards = document.querySelectorAll('.field-card');
+const scrollToTopBtn = document.getElementById('scrollToTop');
 
 showAllPopups();
 
@@ -13,6 +14,11 @@ window.addEventListener('scroll', () => {
       card.classList.remove('slideUp');
     }
   });
+});
+
+scrollToTopBtn.addEventListener('click', () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 });
 
 function showAllPopups() {

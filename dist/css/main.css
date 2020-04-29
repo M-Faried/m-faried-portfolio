@@ -14,15 +14,23 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: white;
-  background-color: #232323;
+  background-color: #1f1f1f;
+  /* background-color: #0c0c0c; */
   margin: 0;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.container {
+  width: 100%;
 }
 
 h1,
@@ -42,8 +50,4 @@ h3 {
 }
 .text-blue {
   color: var(--main-blue);
-}
-
-.main-container {
-  width: 90%;
 }

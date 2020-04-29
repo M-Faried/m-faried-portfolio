@@ -1,13 +1,17 @@
 /* ******************************************* Intro ******************************************* */
 .intro-container {
   background-color: var(--main-box-background);
+  margin-top: 5vh;
+
+  height: 90vh;
+  width: 90vw;
+  max-height: 90vh;
+  max-width: 90vw;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px 0;
 
-  min-height: 90vh;
   position: relative;
   box-shadow: var(--main-box-shadow);
 }
@@ -15,9 +19,9 @@
 /* ******************************************* Left Text ******************************************* */
 .intro-container .header {
   flex: 2;
-  font-size: 4rem;
-  padding: 100px 0 100px 50px;
-  position: relative;
+  width: 100%;
+  font-size: 5.5rem;
+  padding: 100px 0 100px 100px;
   z-index: 2;
 }
 .intro-container .header small {
@@ -28,25 +32,24 @@
 
 /* ******************************************* Right Text ******************************************* */
 .intro-container .text {
-  font-size: 1.5rem;
   flex: 1;
-  margin: 50px 60px;
+  font-family: 'Jura', sans-serif;
+  font-size: 1.5rem;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  position: relative;
   z-index: 2;
-  font-family: 'Jura', sans-serif;
 }
-/* .pitching-text {
-  display: none;
-} */
+
+/* ******************************************* Pitching Text *******************************************  */
+.pitching-text p {
+  margin-bottom: 40px;
+}
 
 /* ******************************************* Contacts Text *******************************************  */
 .contacts-text {
-  opacity: 1;
+  opacity: 0;
   transition: opacity 2s ease-in;
 }
 .contacts-text a {
@@ -54,19 +57,15 @@
 }
 
 /* ******************************************* Ghost Text ******************************************* */
-.intro-container .ghost-text {
+.intro-container .logo {
   position: absolute;
-  top: 50px;
+  top: -20px;
   right: 40px;
-  bottom: 0;
   z-index: 1;
-
-  line-height: 200px;
-  letter-spacing: 50px;
-
-  text-align: Left;
-  font-size: 5rem;
-  color: rgba(5, 5, 5, 1);
+}
+.intro-container img {
+  max-width: 250px;
+  box-shadow: var(--main-box-shadow);
 }
 
 /* ******************************************* Animation Classes ******************************************* */
@@ -87,11 +86,10 @@
   text-align: center;
 
   border: 2px solid var(--main-blue);
-  padding: 10px 15px;
-  margin-top: 40px;
+  padding: 10px 40px;
   width: 50%;
 
-  animation: glowing 3s ease-in-out infinite;
+  animation: glowing 2s ease-in-out infinite;
 }
 .glowing-btn:active {
   transform: scale(0.95);
