@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
 /* ******************************************* Intro ******************************************* */
 .intro-container {
-  background-color: var(--main-box-background);
+  /* background-color: var(--main-box-background); */
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(20, 20, 20),
+    black
+  );
+
   margin-top: 5vh;
 
   height: 90vh;
@@ -20,14 +28,19 @@
 .intro-container .header {
   flex: 2;
   width: 100%;
-  font-size: 5.5rem;
+  font-size: 4rem;
   padding: 100px 0 100px 100px;
   z-index: 2;
 }
+.intro-container .header h1 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 15px;
+}
+
 .intro-container .header small {
-  font-size: 1.2rem;
   font-family: 'Jura', sans-serif;
-  color: var(--main-yellow);
+  font-size: 1.2rem;
+  letter-spacing: 5px;
 }
 
 /* ******************************************* Right Text ******************************************* */
@@ -36,27 +49,32 @@
   font-family: 'Jura', sans-serif;
   font-size: 1.5rem;
 
+  height: 100%;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   z-index: 2;
+
+  /* position: absolute;
+  bottom: 30px;
+  right: 30px; */
 }
 
-/* ******************************************* Pitching Text *******************************************  */
 .pitching-text p {
   margin-bottom: 40px;
 }
 
-/* ******************************************* Contacts Text *******************************************  */
 .contacts-text {
   opacity: 0;
+  display: none;
   transition: opacity 2s ease-in;
 }
 .contacts-text a {
   color: white;
 }
 
-/* ******************************************* Ghost Text ******************************************* */
+/* ******************************************* Logo Style ******************************************* */
 .intro-container .logo {
   position: absolute;
   top: -20px;
@@ -65,7 +83,14 @@
 }
 .intro-container img {
   max-width: 250px;
-  box-shadow: var(--main-box-shadow);
+  /* box-shadow: var(--main-box-shadow); */
+}
+
+/* ******************************************* Scroll For More Style ******************************************* */
+.intro-container .scroll-sign {
+  position: absolute;
+  right: 50%;
+  bottom: -35px;
 }
 
 /* ******************************************* Animation Classes ******************************************* */

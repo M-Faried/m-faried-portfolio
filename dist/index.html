@@ -8,6 +8,7 @@
         integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/nav-bar.css">
     <link rel="stylesheet" href="./css/intro.css">
+    <link rel="stylesheet" href="./css//skill-card.css">
     <link rel="stylesheet" href="./css/field-card.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>M Faried</title>
@@ -24,13 +25,15 @@
                     src="./images/linkedin.png" alt="Linked In"></a>
         </div>
     </nav>
+
     <div class="intro-container">
 
         <div class="header">
             <h1 class="popup-element">Hello<span class="text-red">,</span></h1>
             <h1 class="popup-element">This is</h1>
-            <h1 class="popup-element">M<span class="text-purple">.</span> Faried</h1>
-            <small class="popup-element">Web Developer / Desktop Developer / Freelancer</small>
+            <h1 class="popup-element">M<span class="text-purple">.</span>FARIED</h1>
+            <small class="popup-element">Web Developer / Desktop Developer /
+                Freelancer</small>
         </div>
 
         <div class="text">
@@ -57,12 +60,84 @@
             <img src="./images/logo.jpg" alt="">
         </div>
 
+        <div class="scroll-sign" id="scroll-sign">
+            <i class="fas fa-chevron-down fa-2x"></i>
+        </div>
+
+    </div>
+
+    <div class="skill-card-container" id="skill-card-container">
+
+        <!-- Vanilla JS Card-->
+        <div class="skill-card">
+            <a href="#">
+                <div class="skill-card-content">
+
+                    <small>Click To View Projects</small>
+
+                    <div class="logo">
+                        <img src="./images/logo-js-html-css.png" alt="">
+                    </div>
+
+                    <div class="description">
+                        <p>Web development using pure <span class="text-red">HTML5</span>, <span
+                                class="text-blue">CSS3</span>,
+                            and
+                            <span class="text-yellow">Javascript</span></p>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
+        <!-- MERN Stack Card -->
+        <div class="skill-card">
+            <a href="#">
+                <div class="skill-card-content">
+
+                    <small>Click To View Projects</small>
+
+                    <div class="multi-logo">
+                        <img src="./images/react.svg" alt="">
+                        <img src="./images/mongo.svg" alt="">
+                        <img src="./images/node.svg" alt="">
+                        <h1><span class="text-red">Express</span></h1>
+                    </div>
+
+                    <div class="description">
+                        <p>MERN Full Stack Web Development [MongoDB, ExpressJS, REACT, NodeJS, Postman]</p>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
+        <!-- ASP.Net MVC Card -->
+        <div class="skill-card">
+            <a href="#">
+                <div class="skill-card-content">
+
+                    <small>Click To View Projects</small>
+
+                    <div class="logo">
+                        <img src="./images/logo-dot-net.png" alt="">
+                        <h1>ASP.NET MVC</h1>
+                    </div>
+
+                    <div class="description">
+                        <p> ASP.Net Core MVC, Web API, Entity Framework, Razor Pages, MS SQL Server</p>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
     </div>
 
     <div class="field-card-container">
 
         <!-- Vanilla JS Card-->
-        <div class="field-card">
+        <!-- <div class="field-card">
             <div class="card-body">
                 <div class="logo">
                     <img src="./images/logo-js-html-css.png" alt="">
@@ -74,10 +149,10 @@
                     <p>TODO add some projects from the portfolio here.</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- MERN Stack Card -->
-        <div class="field-card">
+        <!-- <div class="field-card">
             <div class="card-body">
                 <div class="multi-logo">
                     <img src="./images/react.svg" alt="">
@@ -93,10 +168,10 @@
                     <p>TODO add mern projects here.</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- ASP.Net MVC Card -->
-        <div class="field-card">
+        <!-- <div class="field-card">
             <div class="card-body">
                 <div class="logo">
                     <img src="./images/logo-dot-net.png" alt="">
@@ -108,7 +183,7 @@
                     <p>Embedded Software Development For Automotive Systems Using Model Based Approach</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Dot Net Card -->
         <div class="field-card">
@@ -118,8 +193,8 @@
                     <h1>WPF & C#</h1>
                 </div>
                 <div class="description">
-                    <h1><span class="text-purple">Software Tooling Engineer @ Valeo Automotive Systems For 6
-                            years</span>
+                    <h1 class="text-purple">Software Tooling Engineer @ Valeo Automotive Systems For 6
+                        years
                     </h1>
                     <p>Responsible for the design and development of performance sensitive desktop applications
                         using
@@ -161,8 +236,9 @@
                 </div>
 
                 <div class="description">
-                    <h1>Embedded Software Development For Automotive Systems For 4 Years</h1>
-                    <p>Embedded Software Development For Automotive Systems Using Model Based Approach</p>
+                    <h1><span class="text-blue">Embedded Software Development For Automotive Systems Using
+                            Model Based Approach For 4 Years @
+                            Valeo</span></h1>
                 </div>
             </div>
         </div>

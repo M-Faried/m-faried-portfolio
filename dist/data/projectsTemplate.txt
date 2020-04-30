@@ -13,5 +13,6 @@ AllowedTags
 HTML
 CSS
 JS
+REACT
 .NET
 WPF
