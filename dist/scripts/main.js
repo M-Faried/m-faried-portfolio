@@ -5,6 +5,10 @@ const skillCardContainer = document.getElementById('skill-card-container');
 const scrollToTopBtn = document.getElementById('scrollToTop');
 const scrollSign = document.getElementById('scroll-sign');
 
+const contactsText = document.getElementById('contacts-text');
+const pitchingText = document.getElementById('pitching-text');
+const contactMeBtn = document.getElementById('contact-me-button');
+
 /////////////////////////////////////////////////////////////////////////On Load
 
 // logData();
@@ -42,6 +46,17 @@ window.addEventListener('scroll', () => {
 scrollToTopBtn.addEventListener('click', () => {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+});
+
+contactMeBtn.addEventListener('click', () => {
+  if (pitchingText.classList.contains('hide')) {
+    contactMeBtn.innerText = 'CONTACT ME';
+  } else {
+    contactMeBtn.innerText = 'BACK';
+  }
+
+  pitchingText.classList.toggle('hide');
+  contactsText.classList.toggle('hide');
 });
 
 /////////////////////////////////////////////////////////////////////////Helper Functions

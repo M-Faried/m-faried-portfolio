@@ -21,6 +21,8 @@
 
 .skill-card small {
   visibility: hidden;
+  width: 100%;
+  text-align: right;
 }
 .skill-card:hover small {
   visibility: visible;
