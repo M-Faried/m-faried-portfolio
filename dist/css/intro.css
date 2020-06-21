@@ -2,13 +2,13 @@
 
 /* ******************************************* Intro ******************************************* */
 .intro-container {
-  /* background-color: var(--main-box-background); */
+  background-color: var(--main-box-background);
   box-shadow: var(--main-box-shadow);
-  background-image: radial-gradient(
+  /* background-image: radial-gradient(
     circle at top right,
     rgb(20, 20, 20),
     black
-  );
+  ); */
   margin-top: 5vh;
   min-height: 90vh;
   min-width: 90vw;

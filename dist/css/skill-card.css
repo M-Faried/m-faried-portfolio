@@ -7,6 +7,19 @@
   position: relative;
 }
 
+@media (max-width: 1300px) {
+  .skill-card-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skill-card {
+    min-width: 100%;
+    margin-bottom: 70px;
+  }
+}
+
 .skill-card {
   box-shadow: var(--main-box-shadow);
   background-color: var(--main-box-background);
@@ -78,7 +91,7 @@
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .skill-card-content .multi-logo img,

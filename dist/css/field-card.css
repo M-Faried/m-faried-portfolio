@@ -1,6 +1,6 @@
 /* ******************* The Field Card Container */
 .field-card-container {
-  max-width: 90vw;
+  width: 90vw;
   padding-top: 70px;
   padding-bottom: 100px;
   display: flex;

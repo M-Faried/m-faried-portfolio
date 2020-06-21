@@ -1,0 +1,21 @@
+{
+  "name": "m-faried-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/M-Faried/m-faried-portfolio#readme",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Faried/m-faried-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Faried/m-faried-portfolio/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
