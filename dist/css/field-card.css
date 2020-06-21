@@ -22,6 +22,12 @@
   display: flex;
   align-items: center;
   visibility: hidden;
+
+  transition: transform 0.5s ease-in-out;
+}
+
+.field-card:hover {
+  transform: scale(1.05);
 }
 
 .field-card a {

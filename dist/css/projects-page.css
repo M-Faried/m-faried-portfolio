@@ -1,0 +1,50 @@
+.projects {
+  width: 90vw;
+  margin: 50px auto;
+  font-family: 'Jura', sans-serif;
+}
+
+.project {
+  background-color: var(--main-box-background);
+  box-shadow: var(--main-box-shadow);
+  padding: 20px 30px;
+  margin-top: 40px;
+}
+
+.project h1 {
+  font-size: 3rem;
+}
+
+.project a {
+  color: white;
+}
+
+.project-body {
+  display: flex;
+  margin-top: 20px;
+}
+
+.screen-shot {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.screen-shot img {
+  max-width: 300px;
+  margin: 10px auto;
+}
+
+.project-body .description {
+  flex: 5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.project-body .description p {
+  font-size: 1.2rem;
+}

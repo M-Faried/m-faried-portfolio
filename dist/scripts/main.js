@@ -23,7 +23,6 @@ window.addEventListener('scroll', () => {
   else scrollSign.style.opacity = '1';
 
   //Refreshing the display of the skill cards.
-  const delayDifference = 0.8;
   allSkillCards.forEach((card, index) => {
     if (documentTop > card.offsetTop || bodyTop > card.offsetTop) {
       // card.style.transitionDelay = `${(index + 1) * delayDifference}s`;
