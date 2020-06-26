@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/m-faried-portfolio/static/css/main.4f3007f5.chunk.css",
-    "main.js": "/m-faried-portfolio/static/js/main.0b365148.chunk.js",
-    "main.js.map": "/m-faried-portfolio/static/js/main.0b365148.chunk.js.map",
-    "runtime-main.js": "/m-faried-portfolio/static/js/runtime-main.d1e9b479.js",
-    "runtime-main.js.map": "/m-faried-portfolio/static/js/runtime-main.d1e9b479.js.map",
-    "static/js/2.a5dcc5ba.chunk.js": "/m-faried-portfolio/static/js/2.a5dcc5ba.chunk.js",
-    "static/js/2.a5dcc5ba.chunk.js.map": "/m-faried-portfolio/static/js/2.a5dcc5ba.chunk.js.map",
-    "index.html": "/m-faried-portfolio/index.html",
-    "precache-manifest.5663fb5ed36dfd3eaa9537a02deed0fd.js": "/m-faried-portfolio/precache-manifest.5663fb5ed36dfd3eaa9537a02deed0fd.js",
-    "service-worker.js": "/m-faried-portfolio/service-worker.js",
-    "static/css/main.4f3007f5.chunk.css.map": "/m-faried-portfolio/static/css/main.4f3007f5.chunk.css.map",
-    "static/js/2.a5dcc5ba.chunk.js.LICENSE.txt": "/m-faried-portfolio/static/js/2.a5dcc5ba.chunk.js.LICENSE.txt"
+    "main.css": "/M-Faried/m-faried-portfolio/static/css/main.4f3007f5.chunk.css",
+    "main.js": "/M-Faried/m-faried-portfolio/static/js/main.1c0e0754.chunk.js",
+    "main.js.map": "/M-Faried/m-faried-portfolio/static/js/main.1c0e0754.chunk.js.map",
+    "runtime-main.js": "/M-Faried/m-faried-portfolio/static/js/runtime-main.1bca412d.js",
+    "runtime-main.js.map": "/M-Faried/m-faried-portfolio/static/js/runtime-main.1bca412d.js.map",
+    "static/js/2.76d076dd.chunk.js": "/M-Faried/m-faried-portfolio/static/js/2.76d076dd.chunk.js",
+    "static/js/2.76d076dd.chunk.js.map": "/M-Faried/m-faried-portfolio/static/js/2.76d076dd.chunk.js.map",
+    "index.html": "/M-Faried/m-faried-portfolio/index.html",
+    "precache-manifest.82e53c0511e15e6cf4c161d32e86bda5.js": "/M-Faried/m-faried-portfolio/precache-manifest.82e53c0511e15e6cf4c161d32e86bda5.js",
+    "service-worker.js": "/M-Faried/m-faried-portfolio/service-worker.js",
+    "static/css/main.4f3007f5.chunk.css.map": "/M-Faried/m-faried-portfolio/static/css/main.4f3007f5.chunk.css.map",
+    "static/js/2.76d076dd.chunk.js.LICENSE.txt": "/M-Faried/m-faried-portfolio/static/js/2.76d076dd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d1e9b479.js",
-    "static/js/2.a5dcc5ba.chunk.js",
+    "static/js/runtime-main.1bca412d.js",
+    "static/js/2.76d076dd.chunk.js",
     "static/css/main.4f3007f5.chunk.css",
-    "static/js/main.0b365148.chunk.js"
+    "static/js/main.1c0e0754.chunk.js"
   ]
 }
