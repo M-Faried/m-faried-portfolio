@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/m-faried-portfolio/static/css/main.4f3007f5.chunk.css",
+    "main.css": "/m-faried-portfolio/static/css/main.70646689.chunk.css",
     "main.js": "/m-faried-portfolio/static/js/main.6a35a714.chunk.js",
     "main.js.map": "/m-faried-portfolio/static/js/main.6a35a714.chunk.js.map",
     "runtime-main.js": "/m-faried-portfolio/static/js/runtime-main.7c7f7bd2.js",
@@ -8,15 +8,15 @@
     "static/js/2.76d076dd.chunk.js": "/m-faried-portfolio/static/js/2.76d076dd.chunk.js",
     "static/js/2.76d076dd.chunk.js.map": "/m-faried-portfolio/static/js/2.76d076dd.chunk.js.map",
     "index.html": "/m-faried-portfolio/index.html",
-    "precache-manifest.3d514bd5f9e9f7077fb0fbd7b32e85b5.js": "/m-faried-portfolio/precache-manifest.3d514bd5f9e9f7077fb0fbd7b32e85b5.js",
+    "precache-manifest.e5096000a08477ee1bb4f1365812395b.js": "/m-faried-portfolio/precache-manifest.e5096000a08477ee1bb4f1365812395b.js",
     "service-worker.js": "/m-faried-portfolio/service-worker.js",
-    "static/css/main.4f3007f5.chunk.css.map": "/m-faried-portfolio/static/css/main.4f3007f5.chunk.css.map",
+    "static/css/main.70646689.chunk.css.map": "/m-faried-portfolio/static/css/main.70646689.chunk.css.map",
     "static/js/2.76d076dd.chunk.js.LICENSE.txt": "/m-faried-portfolio/static/js/2.76d076dd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7c7f7bd2.js",
     "static/js/2.76d076dd.chunk.js",
-    "static/css/main.4f3007f5.chunk.css",
+    "static/css/main.70646689.chunk.css",
     "static/js/main.6a35a714.chunk.js"
   ]
 }
