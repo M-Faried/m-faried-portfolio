@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://github.com/M-Faried/m-faried-portfolio",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
