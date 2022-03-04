@@ -1,13 +1,11 @@
 {
   "files": {
-    "main.css": "/m-faried-portfolio/static/css/main.866ffc72.css",
-    "main.js": "/m-faried-portfolio/static/js/main.b83234e9.js",
-    "index.html": "/m-faried-portfolio/index.html",
-    "main.866ffc72.css.map": "/m-faried-portfolio/static/css/main.866ffc72.css.map",
-    "main.b83234e9.js.map": "/m-faried-portfolio/static/js/main.b83234e9.js.map"
+    "main.css": "/m-faried-portfolio/static/css/main.03c24594.css",
+    "main.js": "/m-faried-portfolio/static/js/main.5a2f35d9.js",
+    "index.html": "/m-faried-portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.866ffc72.css",
-    "static/js/main.b83234e9.js"
+    "static/css/main.03c24594.css",
+    "static/js/main.5a2f35d9.js"
   ]
 }
