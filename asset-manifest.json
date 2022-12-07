@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/m-faried-portfolio/static/css/main.cd5deaaf.css",
-    "main.js": "/m-faried-portfolio/static/js/main.69cb5a38.js",
+    "main.js": "/m-faried-portfolio/static/js/main.02ff45c0.js",
     "index.html": "/m-faried-portfolio/index.html"
   },
   "entrypoints": [
     "static/css/main.cd5deaaf.css",
-    "static/js/main.69cb5a38.js"
+    "static/js/main.02ff45c0.js"
   ]
 }
