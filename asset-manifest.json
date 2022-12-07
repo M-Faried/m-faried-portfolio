@@ -1,11 +1,9 @@
 {
-  "files": {
-    "main.css": "/m-faried-portfolio/static/css/main.cd5deaaf.css",
-    "main.js": "/m-faried-portfolio/static/js/main.02ff45c0.js",
-    "index.html": "/m-faried-portfolio/index.html"
-  },
-  "entrypoints": [
-    "static/css/main.cd5deaaf.css",
-    "static/js/main.02ff45c0.js"
-  ]
+  "main.css": "/m-faried-portfolio/static/css/main.ca992299.chunk.css",
+  "main.js": "/m-faried-portfolio/static/js/main.d1975fc8.chunk.js",
+  "static/js/1.91e5aeb6.chunk.js": "/m-faried-portfolio/static/js/1.91e5aeb6.chunk.js",
+  "runtime~main.js": "/m-faried-portfolio/static/js/runtime~main.6824927c.js",
+  "index.html": "/m-faried-portfolio/index.html",
+  "precache-manifest.a4a6336e5f4714ff74c6d71a7c2dbb84.js": "/m-faried-portfolio/precache-manifest.a4a6336e5f4714ff74c6d71a7c2dbb84.js",
+  "service-worker.js": "/m-faried-portfolio/service-worker.js"
 }
