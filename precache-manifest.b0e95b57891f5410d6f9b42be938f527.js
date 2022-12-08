@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/m-faried-portfolio/static/js/runtime~main.6824927c.js"
   },
   {
-    "revision": "044bfe06bdf5b0f36c6bcd68d81e5883",
+    "revision": "300fc4f1dca8f26206aa10bdcc7494fa",
     "url": "/m-faried-portfolio/index.html"
   }
 ];
