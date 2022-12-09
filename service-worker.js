@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/m-faried-portfolio/precache-manifest.5b448427f2371d1ca31ac179c9972cdf.js"
+  "/m-faried-portfolio/precache-manifest.51e76c8cd28d76e492758c338f09113b.js"
 );
 
 workbox.clientsClaim();
